@@ -49,7 +49,6 @@ async function run(){
             console.log(result);
             res.send(result)
         });
-        
          // DELETE API
          app.delete('/services/:id', async (req, res) => {
             const id = req.params.id;
