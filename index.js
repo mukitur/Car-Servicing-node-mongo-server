@@ -66,6 +66,10 @@ run().catch(console.dir);
 app.get ('/', (req, res) =>{
     res.send('Hello..car servicing  Node Server running');
 })
+app.get ('/hello', (req, res) =>{
+    res.send('hrkoku server running');
+})
+
 
 app.listen(port, ()=> {
     console.log('Listening Port', port);
